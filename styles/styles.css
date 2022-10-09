@@ -1,24 +1,26 @@
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
 }
 
 .main {
   display: flex;
   flex-direction: row-reverse;
-  background-color: #e5e5e5;
+  background-color: #f0efef;
   width: 1200px;
+  padding: 25px;
   margin: 0 auto;
 }
 
 .main-content {
   background-color: #ffffff;
 }
-
+/* 
 h3 {
-  color: blueviolet;
+  
 }
 
-/* .project {
+.project {
   margin-bottom: 30px;
 }
 
@@ -34,4 +36,8 @@ h3 {
 .sidebar {
   background-color: #1e2939;
   color: #ffffff;
+}
+
+.my_photo {
+  margin-top: 30px;
 }
