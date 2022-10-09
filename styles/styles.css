@@ -35,9 +35,64 @@ h3 {
 
 .sidebar {
   background-color: #1e2939;
-  color: #ffffff;
+  padding-top: 40px;
+  width: 340px;
 }
 
 .my_photo {
-  margin-top: 30px;
+  width: 340px;
+  margin-bottom: 40px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills,
+.languages {
+  margin-left: 40px;
+  margin-bottom: 38px;
+}
+
+.sidebar-title {
+  color: #ffffff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 27px;
+  margin-bottom: 15px;
+}
+
+.contacts {
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.contacts i {
+  margin-right: 16px;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.contacts a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.sidebar-list {
+  padding: 0;
+  margin-left: 17px;
+}
+
+.sidebar-item {
+  color: #fb6d3a;
+}
+
+.sidebar-list-text {
+  margin-left: 13px;
+  color: #fff;
+  opacity: 0.9;
+  line-height: 24px;
+  font-size: 14px;
 }
