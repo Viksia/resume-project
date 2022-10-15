@@ -4,6 +4,8 @@ body {
   background-color: #f0efef;
 }
 
+/* Основные стили: */
+
 .main {
   display: flex;
   flex-direction: row-reverse;
@@ -112,7 +114,8 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 20px;
+
+  line-height: 1.6;
   color: black;
   margin-bottom: 10px;
 }
@@ -180,6 +183,10 @@ body {
   line-height: 16px;
   color: #fb6d3a;
   margin-bottom: 10px;
+}
+
+.skills {
+  font-weight: normal;
 }
 
 .course {
@@ -253,4 +260,94 @@ body {
   opacity: 0.9;
   line-height: 24px;
   font-size: 14px;
+}
+
+/* Mobile version*/
+@media screen and (max-width: 700px) {
+  body {
+    display: flex;
+  }
+
+  /* Main */
+
+  .main-content {
+    width: 100%;
+    padding: 10px;
+  }
+  .main {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .about-name {
+    font-size: 34px;
+    margin: 25px 25px;
+  }
+
+  .about-description {
+    width: 80%;
+    margin: 25px 25px;
+  }
+
+  .permit {
+    margin: 25px 25px;
+  }
+
+  .about-position {
+    font-size: 14px;
+    margin: 25px 25px;
+  }
+
+  .main-title,
+  .work-position,
+  .period,
+  .institute,
+  .specialization {
+    margin: 25px 25px;
+  }
+
+  .projects-item {
+    margin: 5px 5px;
+    list-style: none;
+  }
+  .work-list-item {
+    width: 80%;
+    margin-left: 25px;
+  }
+
+  .course {
+    display: table;
+    margin-left: 25px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    width: 80%;
+  }
+
+  /* Aside */
+
+  .sidebar {
+    width: 105%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: left;
+  }
+
+  .sidebar img {
+    width: 80%;
+    margin-left: 30px;
+  }
+
+  .contacts {
+    margin-right: 0;
+    margin-left: 30px;
+  }
+
+  .tech-skills,
+  .languages {
+    margin-right: 0;
+    margin-left: 30px;
+  }
+  .soft-skills {
+    display: none;
+  }
 }
